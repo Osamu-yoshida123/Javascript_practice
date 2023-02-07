@@ -11,20 +11,10 @@ expect(sum(1, 2)).toBe(3);
 
 });
 
-test('constの練習',() => {
-let booktitle;
-expect(booktitle).toBe(undefined);
-let booktitle = 3000;
-
-booktitle = "雑誌";
-
-  const booktitle = "本";
-  const bookprice = 3000;
- 
-  expect(booktitle).toBe("本");
-  expect(bookprice).toBe(3000);
-
-  bookprice = 5000;
-
+test('colsolelog',() => {
+ // const total =42+42;
+ // console.log(total*3);
+ let a = 1;
+  a = 2;
 
 });
