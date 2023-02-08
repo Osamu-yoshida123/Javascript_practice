@@ -1,0 +1,1 @@
+yoshida(Console.log("helloworld"));
