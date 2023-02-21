@@ -12,19 +12,42 @@ console.log(sum(10,20));
 console.log(sum(100,20));
 */
 
-const str1 = "ダブル";
-const str2 = 'ダブル';
+/*
+const obj = {firstname:"osamu","last-name":"yoshida","age":54,nested:{value:1}}; 
+expect(obj.firstname).toBe("osamu");
+expect(obj.nested.value).toBe(1);
+*/
 
-expect(str1===str2).toBe(true);
+/*
+const emptyarray = [];
 
-const str3= 'あああ\n いいい\nう';
+const array = [10,2,3];
+console.log(array[0]);
 
-const str4 ="あああ\nいいい\nう";
+const osamu = ["aaa",111,true,{age:20,adress:"東京"}];
+console.log(osamu[0]);
+console.log(osamu[1]);
+console.log(osamu[2]);
+console.log(osamu[3]);
 
-expect(str3===str4).toBe(true);
+*/
 
+const str = new String("文字列");
 
+let aaa = 1;
 
+aaa++;
+console.log(aaa);
+
+aaa++;
+console.log(aaa);
+
+console.log(aaa++);
+console.log(aaa++);
+console.log(aaa++);
+console.log(aaa++);
+
+console.log(aaa);
 
 
 });
