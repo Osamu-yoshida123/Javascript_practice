@@ -1,6 +1,6 @@
 const sum = require('./sum');
 
-test('プログラムコメントの練習', () => {
+test('三項演算子', () => {
 //  expect(sum(1, 2)).toBe(3);
 //  expect(sum(1, 2)).toBe(3);
 
@@ -32,6 +32,7 @@ console.log(osamu[3]);
 
 */
 
+/*
 const str = new String("文字列");
 
 let aaa = 1;
@@ -48,6 +49,20 @@ console.log(aaa++);
 console.log(aaa++);
 
 console.log(aaa);
+
+*/
+
+function addPrefix(text, prefix) {
+    let pre = "デフォルト:";
+    if (typeof prefix === "string") {
+        pre = prefix;
+    }
+    return pre + text;
+}
+
+console.log(addPrefix("文字列")); // => "デフォルト:文字列"
+console.log(addPrefix("文字列", "カスタム:")); // => "カスタム:文字列"
+
 
 
 });
