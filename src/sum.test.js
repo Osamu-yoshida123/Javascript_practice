@@ -1,6 +1,6 @@
 const sum = require('./sum');
 
-test('プログラムコメントの練習', () => {
+test('number.parseint,floadの練習', () => {
 //  expect(sum(1, 2)).toBe(3);
 //  expect(sum(1, 2)).toBe(3);
 
@@ -32,6 +32,7 @@ console.log(osamu[3]);
 
 */
 
+/*
 const str = new String("文字列");
 
 let aaa = 1;
@@ -49,6 +50,19 @@ console.log(aaa++);
 
 console.log(aaa);
 
+*/
 
+expect(Number.parseInt("10",10)).toBe(10);
+expect(Number.parseInt("10",10)).not.toBe("10");
+expect(Number.parseInt("10")).toBe(10);
+
+/*
+expect(Number.parseInt("3.14",10)).toBe(3.14);
+*/
+
+/*
+expect(Number.parseInt("3.14",10)).not.toBe("3.14");
+expect(Number.parseInt("3.14")).toBe(3.14);
+*/
 });
 
